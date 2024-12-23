@@ -1,0 +1,43 @@
+
+.sidebar{
+    overflow-x: hidden;
+    background-color: #022213;
+    height: 100%;
+}
+.sidebar_body ul li{
+    padding: 15px 20px;
+    transition: 0.7s all;
+    font-size: 0.85rem;
+}
+.sidebar_body ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s all;
+    
+}
+hr{
+    background-color: #b1e335;
+    color: #b1e335;
+    height: 1px;
+    width: 100%;
+}
+
+.sidebar_body ul li:hover{
+    background-color: #b1e335;
+    transition: 0.5s all;
+}
+.sidebar_body ul li:hover a{
+    color: #022213;
+}
+
+.sidebar_body ul .collapse{
+    background-color: #012916;
+    border: 0;
+}
+.sidebar_body ul .collapse.show ul,
+.sidebar_body ul .collapse ul{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 0.85rem;
+}

@@ -1,0 +1,96 @@
+<div class="sidebar" id="sidebar">
+    <div class="sidebar_header">
+        Logo
+        <a class="navbar-brand"><i class="fa-solid fa-bars" (click)="togglesidebar()"></i></a>
+    </div>
+    <hr>
+    <div class="sidebar_body">
+        <ul class="list-unstyled">
+            <li>
+                <a routerLink="../practicepage">
+                    <div class="d-flex gap-4">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <span>Dashboard</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="d-flex gap-4">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <span>Statistics</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="d-flex gap-4">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <span>Messages</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="d-flex gap-4">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <span>Customers</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a data-bs-toggle="collapse" href="#productcollapse" role="button" aria-expanded="false"
+                    aria-controls="productcollapse">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex gap-4">
+                            <span><i class="fa-brands fa-product-hunt"></i></span>
+                            <span>Products</span>
+                        </div>
+                        <i class="fa-solid fa-caret-up"></i>
+                    </div>
+                </a>
+            </li>
+            <div class="collapse" id="productcollapse">
+                <!-- <div class="card card-body"> -->
+                <ul class="list-unstyled">
+                    <li>
+                        <a>
+                            <div class="d-flex gap-4">
+                                <span><i class="fa-solid fa-house"></i></span>
+                                <span>Product-1</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <div class="d-flex gap-4">
+                                <span><i class="fa-solid fa-house"></i></span>
+                                <span>Product-2</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </div>
+        </ul>
+        <hr>
+        <ul class="list-unstyled">
+            <li>
+                <a>
+                    <div class="d-flex gap-4">
+                        <span><i class="fa-solid fa-gear"></i></span>
+                        <span>Settings</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="d-flex gap-4">
+                        <span><i class="fa-solid fa-shield-halved"></i></span>
+                        <span>Security</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
